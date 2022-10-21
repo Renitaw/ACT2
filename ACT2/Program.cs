@@ -82,6 +82,9 @@ namespace Quicksort
         }
         void display()
         {
+            Console.WriteLine("\n--------------------");
+            Console.WriteLine("Sorted array elements ");
+            Console.WriteLine("----------------------");
 
         }
     }

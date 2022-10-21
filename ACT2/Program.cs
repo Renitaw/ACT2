@@ -64,7 +64,7 @@ namespace Quicksort
                 }
                 cmp_count++;
 
-                if (i < j) 
+                if (i < j)
                 {
                     swap(i, j);
                     mov_count++;
@@ -79,6 +79,10 @@ namespace Quicksort
             q_sort(low, j - 1);
 
             q_sort(j + i, high);
+        }
+        void display()
+        {
+
         }
     }
 }

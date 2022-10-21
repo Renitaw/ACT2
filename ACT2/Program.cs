@@ -105,6 +105,8 @@ namespace Quicksort
             program mylist = new program();
             mylist.input();
             mylist.q_sort(0, mylist.getSize() - 1);
+            mylist.display();
+
         }
     }
 }

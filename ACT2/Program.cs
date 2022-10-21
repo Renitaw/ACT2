@@ -103,7 +103,8 @@ namespace Quicksort
         static void Main(string[] args)
         {
             program mylist = new program();
-
+            mylist.input();
+            mylist.q_sort(0, mylist.getSize() - 1);
         }
     }
 }

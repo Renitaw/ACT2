@@ -6,10 +6,5 @@ using System.Threading.Tasks;
 
 namespace Quicksort
 {
-    internal class Program
-    {
-        static void Main(string[] args)
-        {
-        }
-    }
+
 }
